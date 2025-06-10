@@ -6,9 +6,9 @@ function convertToBool(text, fault = 'true') {
 module.exports = {
 //================
 SESSION_ID: process.env.SESSION_ID === undefined ? 'Lakiya-Md=6F002Z7Q#bEci0pyGVpwV1c_7My-9iliDYZaELSbRTdq2h42Q8nw' : process.env.SESSION_ID,
-PREFIX: process.env.PREFIX || '#' ,
+PREFIX: process.env.PREFIX || '.' ,
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS === undefined ?"false" : process.env.AUTO_READ_STATUS,
-MODE: process.env.MODE === undefined ?"privet" : process.env.MODE,
+MODE: process.env.MODE === undefined ?"private" : process.env.MODE,
 AUTO_VOICE: process.env.AUTO_VOICE === undefined ? "false" : process.env.AUTO_VOICE,
 AUTO_REPLY: process.env.AUTO_REPLY === undefined ? "false" : process.env.AUTO_REPLY,
 AI_REPLAY: process.env.AI_REPLAY === undefined ? "false" : process.env.AI_REPLAY,
@@ -28,5 +28,5 @@ BAD_NO_BLOCK: process.env.BAD_NO_BLOCK === undefined ? "false" : process.env.BAD
 NEWS_SEND_JID: process.env.NEWS_SEND_JID === undefined ? "" : process.env.NEWS_SEND_JID,
 AUTO_NEWS_SENDER: process.env.AUTO_NEWS_SENDER === undefined ? "false" : process.env.AUTO_NEWS_SENDER,
 TIKTOK_SEND_JID: process.env.TIKTOK_SEND_JID === undefined ? "" : process.env.TIKTOK_SEND_JID,
-AUTO_TIKTOK_SENDER: process.env.AUTO_TIKTOK_SENDER === undefined ? "false" : process.env.AUTO_TIKTOK_SENDER,
+AUTO_TIKTOK_SENDER: process.env.AUTO_TIKTOK_SENDER === undefined ? "true" : process.env.AUTO_TIKTOK_SENDER,
 };
