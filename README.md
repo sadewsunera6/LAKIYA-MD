@@ -1,4 +1,4 @@
-<div align="center"><h1>🧚‍♂️ 𝐋𝐀𝐊𝐈𝐘𝐀 𝐌𝐃 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐁𝐎𝐓🧚‍♂️</h1><a href="https://github.com/LAKIYA-MD/LAKIYA-MD"><img src="https://files.catbox.moe/6ys0m9.jpg" width="250" height="250"></a></div>
+<div align="center"><h1>🧚‍♂️ 𝐋𝐀𝐊𝐈𝐘𝐀  𝐌𝐃 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐁𝐎𝐓🧚‍♂️</h1><a href="https://github.com/LAKIYA-MD/LAKIYA-MD"><img src="https://files.catbox.moe/6ys0m9.jpg" width="250" height="250"></a></div>
 
 <p align="center">
   <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=d1fa02&center=true&vCenter=true&multiline=false&lines=LAKIYA+MD+WHATSAPP+BOT" alt="">
