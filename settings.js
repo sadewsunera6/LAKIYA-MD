@@ -4,14 +4,17 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-//================
-SESSION_ID: process.env.SESSION_ID === undefined ? 'Lakiya-Md=eEFlCDZY#-_tfyfJLs6irmtx7wZeFCvyUAqWvbc1EFQ8pDg3LWhw' : process.env.SESSION_ID,
+//===============================LAKIYA-MD=====================================
+SESSION_ID: process.env.SESSION_ID === undefined ? 'Lakiya-Md=bIkUzRYQ#QMAKLcj6mMcqK-kgX2qFnIXuyax5vNdeT_WPlP3dB38' : process.env.SESSION_ID,
 PREFIX: process.env.PREFIX || '.' ,
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS === undefined ?"true" : process.env.AUTO_READ_STATUS,
 MODE: process.env.MODE === undefined ?"privet" : process.env.MODE,
+WELCOME: process.env.WELCOME === undefined ?"true" : process.env.WELCOME,
+WELCOME_ALERT: process.env.WELCOME_ALERT === undefined ?"false" : process.env.WELCOME_ALERT,
+WELCOME_SET: process.env.WELCOME_SET === undefined ?"Welcome to our group! Please follow the rules and enjoy your stay" : process.env.WELCOME,
 AUTO_VOICE: process.env.AUTO_VOICE === undefined ? "false" : process.env.AUTO_VOICE,
 AUTO_REPLY: process.env.AUTO_REPLY === undefined ? "false" : process.env.AUTO_REPLY,
-AI_REPLAY: process.env.AI_REPLAY === undefined ? "false" : process.env.AI_REPLAY,
+AI_REPLAY: process.env.AI_REPLAY === undefined ? "false" : process.env.AI_REPLAY,//AI_REPLAY KARANA KOTASA ADD KARA
 AUTO_STICKER: process.env.AUTO_STICKER === undefined ? "false" : process.env.AUTO_STICKER,
 ANTI_BAD: process.env.ANTI_BAD === undefined ? "false" : process.env.ANTI_BAD,
 ANTI_LINK: process.env.ANTI_LINK === undefined ? "false" : process.env.ANTI_LINK,
@@ -29,4 +32,5 @@ NEWS_SEND_JID: process.env.NEWS_SEND_JID === undefined ? "" : process.env.NEWS_S
 AUTO_NEWS_SENDER: process.env.AUTO_NEWS_SENDER === undefined ? "false" : process.env.AUTO_NEWS_SENDER,
 TIKTOK_SEND_JID: process.env.TIKTOK_SEND_JID === undefined ? "" : process.env.TIKTOK_SEND_JID,
 AUTO_TIKTOK_SENDER: process.env.AUTO_TIKTOK_SENDER === undefined ? "false" : process.env.AUTO_TIKTOK_SENDER,
+POSTGRESQL_URL: process.env.POSTGRESQL_URL === undefined ? 'postgresql://postgres:@Asitha2005b@db.waiqbrnuxkjebghzhovz.supabase.co:5432/postgres' : process.env.POSTGRESQL_URL,
 };
