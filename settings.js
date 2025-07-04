@@ -4,7 +4,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-//===============================LAKIYA-MD====================================
+//===============================LAKIYA-MD===================================
 SESSION_ID: process.env.SESSION_ID === undefined ? 'Lakiya-Md=bIkUzRYQ#QMAKLcj6mMcqK-kgX2qFnIXuyax5vNdeT_WPlP3dB38' : process.env.SESSION_ID,
 PREFIX: process.env.PREFIX || '.' ,
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS === undefined ?"true" : process.env.AUTO_READ_STATUS,
