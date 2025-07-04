@@ -4,12 +4,12 @@
   "description": "A WhatsApp bot created using Node.js",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start LAKIYA.js --deep-monitoring --attach --name LAKIYA-MD",
+    "start": "pm2 start index.js --deep-monitoring --attach --name LAKIYA-MD",
     "stop": "pm2 stop LAKIYA-MD",
     "restart": "pm2 restart LAKIYA-MD"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "github:MR-LAKIYA/Baileys",
+    "@whiskeysockets/baileys": "npm:baileys-pro@latest",
     "@adiwajshing/keyed-db": "^0.2.4",
     "@distube/ytdl-core": "^4.16.4",
     "denethdev-ytmp3": "1.0.3",
@@ -72,7 +72,7 @@
     "@sl-code-lords/esana-news": "1.0.3",
     "@sl-code-lords/image-library": "1.0.0",
     "@sl-code-lords/movie-dl": "1.1.0",
-    "@sl-code-lords/photooxy": "1.0.1",
+    "node-cache": "5.1.2",
     "@sl-code-lords/wabetainfo": "1.2.0",
     "@tobyg74/tiktok-api-dl": "1.0.13",
     "@vitalets/google-translate-api": "9.2.0",
