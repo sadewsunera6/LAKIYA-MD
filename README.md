@@ -11,7 +11,7 @@
 <a href="https://github.com/LAKIYA-MD/LAKIYA-MD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/LAKIYA-MD/LAKIYA-MD?color=red&style=flat-square"></a>
 <a href="https://github.com/LAKIYA-MD/LAKIYA-MD/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/LAKIYA-MD/LAKIYA-MD?label=Watchers&color=blue&style=flat-square"></a>
 <a href="https://github.com/LAKIYA-MD/LAKIYA-MD"><img title="Size" src="https://img.shields.io/github/repo-size/LAKIYA-MD/LAKIYA-MD?style=flat-square&color=green"></a>
----
+--
 <a align="center"><img src="https://profile-counter.glitch.me/SITHUWA-MD/count.svg" /></a>
 
   
