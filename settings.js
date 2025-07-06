@@ -5,11 +5,11 @@ function convertToBool(text, fault = 'true') {
 }
 module.exports = {
 //===============================LAKIYA-MD===================================
-SESSION_ID: process.env.SESSION_ID === undefined ? 'Lakiya-Md=IqE2VQTT#XsHVEK4hgSPS9Jh5nd8Zzc2vIulLulOF_XCmvVJp6p8' : process.env.SESSION_ID,
+SESSION_ID: process.env.SESSION_ID === undefined ? 'Lakiya-Md=XIF2xLAJ#gct9X_q32ZpI3BF5VntpG0Ae1rKUp7PYloIFvQw-KFw' : process.env.SESSION_ID,
 PREFIX: process.env.PREFIX || '#' ,
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS === undefined ?"false" : process.env.AUTO_READ_STATUS,
 MODE: process.env.MODE === undefined ?"inbox" : process.env.MODE,
-WELCOME: process.env.WELCOME === undefined ?"true" : process.env.WELCOME,
+WELCOME: process.env.WELCOME === undefined ?"false" : process.env.WELCOME,
 WELCOME_ALERT: process.env.WELCOME_ALERT === undefined ?"false" : process.env.WELCOME_ALERT,
 WELCOME_SET: process.env.WELCOME_SET === undefined ?"Welcome to our group! Please follow the rules and enjoy your stay" : process.env.WELCOME,
 AUTO_VOICE: process.env.AUTO_VOICE === undefined ? "false" : process.env.AUTO_VOICE,
@@ -18,7 +18,7 @@ AI_REPLAY: process.env.AI_REPLAY === undefined ? "false" : process.env.AI_REPLAY
 AUTO_STICKER: process.env.AUTO_STICKER === undefined ? "false" : process.env.AUTO_STICKER,
 ANTI_BAD: process.env.ANTI_BAD === undefined ? "false" : process.env.ANTI_BAD,
 ANTI_LINK: process.env.ANTI_LINK === undefined ? "false" : process.env.ANTI_LINK,
-ANTI_CALL: process.env.ANTI_CALL === undefined ? "true" : process.env.ANTI_CALL,    
+ANTI_CALL: process.env.ANTI_CALL === undefined ? "false" : process.env.ANTI_CALL,    
 DELETEMSGSENDTO : process.env.DELETEMSGSENDTO === undefined ? '' : process.env.DELETEMSGSENDTO,
 ANTI_DELETE : process.env.ANTI_DELETE === undefined ? 'true' : process.env.ANTI_DELETE,
 ANTI_BOT: process.env.ANTI_BOT === undefined ? "false" : process.env.ANTI_BOT,
