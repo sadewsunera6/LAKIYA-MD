@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
 }
 module.exports = {
 //===============================LAKIYA-MD===================================
-SESSION_ID: process.env.SESSION_ID === undefined ? 'Lakiya-Md=XIF2xLAJ#gct9X_q32ZpI3BF5VntpG0Ae1rKUp7PYloIFvQw-KFw' : process.env.SESSION_ID,
+SESSION_ID: process.env.SESSION_ID === undefined ? 'Lakiya-Md=eVUwDIRT#Nadj1sEjkZDGrq59MngokGuyeYoqT-z6aeN8rEdcOVc' : process.env.SESSION_ID,
 PREFIX: process.env.PREFIX || '#' ,
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS === undefined ?"false" : process.env.AUTO_READ_STATUS,
 MODE: process.env.MODE === undefined ?"inbox" : process.env.MODE,
